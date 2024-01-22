@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+}
+.left-section {
+    flex: 2; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+.right-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+table {
+    
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container styling for tables */
+.table-section {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.table-section-tutorial {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+/* Style for text inputs */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Style for input labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+  
